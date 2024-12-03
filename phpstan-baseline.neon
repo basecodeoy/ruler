@@ -1,0 +1,1496 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Cannot call method in\\(\\) on iterable\\<SplFileInfo\\>\\.$#"
+			count: 1
+			path: .php-cs-fixer.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 12
+			path: src/AbstractValue.php
+
+		-
+			message: "#^Construct empty\\(\\) is not allowed\\. Use more strict comparison\\.$#"
+			count: 4
+			path: src/AbstractValue.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Ruler\\\\AbstractValue\\:\\:add\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/AbstractValue.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Ruler\\\\AbstractValue\\:\\:ceil\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/AbstractValue.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Ruler\\\\AbstractValue\\:\\:divide\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/AbstractValue.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Ruler\\\\AbstractValue\\:\\:exponentiate\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/AbstractValue.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Ruler\\\\AbstractValue\\:\\:floor\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/AbstractValue.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Ruler\\\\AbstractValue\\:\\:modulo\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/AbstractValue.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Ruler\\\\AbstractValue\\:\\:multiply\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/AbstractValue.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Ruler\\\\AbstractValue\\:\\:negate\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/AbstractValue.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Ruler\\\\AbstractValue\\:\\:subtract\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/AbstractValue.php
+
+		-
+			message: "#^Parameter \\#1 \\$num of function ceil expects float\\|int, float\\|int\\|string given\\.$#"
+			count: 1
+			path: src/AbstractValue.php
+
+		-
+			message: "#^Parameter \\#1 \\$num of function floor expects float\\|int, float\\|int\\|string given\\.$#"
+			count: 1
+			path: src/AbstractValue.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Ruler\\\\AbstractVariable\\:\\:getName\\(\\) should return string but returns string\\|null\\.$#"
+			count: 1
+			path: src/AbstractVariable.php
+
+		-
+			message: "#^Class BaseCodeOy\\\\Ruler\\\\Context implements generic interface ArrayAccess but does not specify its types\\: TKey, TValue$#"
+			count: 1
+			path: src/Context.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Ruler\\\\Context\\:\\:__construct\\(\\) has parameter \\$values with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Context.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Ruler\\\\Context\\:\\:keys\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Context.php
+
+		-
+			message: "#^Parameter \\#1 \\$name \\(string\\) of method BaseCodeOy\\\\Ruler\\\\Context\\:\\:offsetExists\\(\\) should be contravariant with parameter \\$offset \\(mixed\\) of method ArrayAccess\\<mixed,mixed\\>\\:\\:offsetExists\\(\\)$#"
+			count: 1
+			path: src/Context.php
+
+		-
+			message: "#^Parameter \\#1 \\$name \\(string\\) of method BaseCodeOy\\\\Ruler\\\\Context\\:\\:offsetGet\\(\\) should be contravariant with parameter \\$offset \\(mixed\\) of method ArrayAccess\\<mixed,mixed\\>\\:\\:offsetGet\\(\\)$#"
+			count: 1
+			path: src/Context.php
+
+		-
+			message: "#^Parameter \\#1 \\$name \\(string\\) of method BaseCodeOy\\\\Ruler\\\\Context\\:\\:offsetSet\\(\\) should be contravariant with parameter \\$offset \\(mixed\\) of method ArrayAccess\\<mixed,mixed\\>\\:\\:offsetSet\\(\\)$#"
+			count: 1
+			path: src/Context.php
+
+		-
+			message: "#^Parameter \\#1 \\$name \\(string\\) of method BaseCodeOy\\\\Ruler\\\\Context\\:\\:offsetUnset\\(\\) should be contravariant with parameter \\$offset \\(mixed\\) of method ArrayAccess\\<mixed,mixed\\>\\:\\:offsetUnset\\(\\)$#"
+			count: 1
+			path: src/Context.php
+
+		-
+			message: "#^Parameter \\#1 \\$object of method SplObjectStorage\\<object,mixed\\>\\:\\:attach\\(\\) expects object, callable given\\.$#"
+			count: 2
+			path: src/Context.php
+
+		-
+			message: "#^Property BaseCodeOy\\\\Ruler\\\\Context\\:\\:\\$frozen type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Context.php
+
+		-
+			message: "#^Property BaseCodeOy\\\\Ruler\\\\Context\\:\\:\\$keys type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Context.php
+
+		-
+			message: "#^Property BaseCodeOy\\\\Ruler\\\\Context\\:\\:\\$protected with generic class SplObjectStorage does not specify its types\\: TObject, TData$#"
+			count: 1
+			path: src/Context.php
+
+		-
+			message: "#^Property BaseCodeOy\\\\Ruler\\\\Context\\:\\:\\$raw type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Context.php
+
+		-
+			message: "#^Property BaseCodeOy\\\\Ruler\\\\Context\\:\\:\\$shared with generic class SplObjectStorage does not specify its types\\: TObject, TData$#"
+			count: 1
+			path: src/Context.php
+
+		-
+			message: "#^Property BaseCodeOy\\\\Ruler\\\\Context\\:\\:\\$values type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Context.php
+
+		-
+			message: "#^Trying to invoke object but it might not be a callable\\.$#"
+			count: 2
+			path: src/Context.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Ruler\\\\Operator\\:\\:getOperands\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Operator.php
+
+		-
+			message: "#^Property BaseCodeOy\\\\Ruler\\\\Operator\\:\\:\\$operands has no type specified\\.$#"
+			count: 1
+			path: src/Operator.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Ruler\\\\Operator\\\\Complement\\:\\:prepareValue\\(\\) should return BaseCodeOy\\\\Ruler\\\\AbstractValue but returns BaseCodeOy\\\\Ruler\\\\Set\\|null\\.$#"
+			count: 1
+			path: src/Operator/Complement.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Ruler\\\\Operator\\\\Intersect\\:\\:prepareValue\\(\\) should return BaseCodeOy\\\\Ruler\\\\AbstractValue but returns BaseCodeOy\\\\Ruler\\\\Set\\|null\\.$#"
+			count: 1
+			path: src/Operator/Intersect.php
+
+		-
+			message: "#^BaseCodeOy\\\\Ruler\\\\Operator\\\\LogicalOperator\\:\\:__construct\\(\\) does not call parent constructor from BaseCodeOy\\\\Ruler\\\\Operator\\.$#"
+			count: 1
+			path: src/Operator/LogicalOperator.php
+
+		-
+			message: "#^Parameter \\#1 \\$operand \\(BaseCodeOy\\\\Ruler\\\\Proposition\\) of method BaseCodeOy\\\\Ruler\\\\Operator\\\\PropositionOperator\\:\\:addOperand\\(\\) should be contravariant with parameter \\$operand \\(BaseCodeOy\\\\Ruler\\\\Proposition\\|BaseCodeOy\\\\Ruler\\\\VariableOperand\\) of method BaseCodeOy\\\\Ruler\\\\Operator\\:\\:addOperand\\(\\)$#"
+			count: 1
+			path: src/Operator/PropositionOperator.php
+
+		-
+			message: "#^Parameter \\#1 \\$operand \\(BaseCodeOy\\\\Ruler\\\\VariableOperand\\) of method BaseCodeOy\\\\Ruler\\\\Operator\\\\VariableOperator\\:\\:addOperand\\(\\) should be contravariant with parameter \\$operand \\(BaseCodeOy\\\\Ruler\\\\Proposition\\|BaseCodeOy\\\\Ruler\\\\VariableOperand\\) of method BaseCodeOy\\\\Ruler\\\\Operator\\:\\:addOperand\\(\\)$#"
+			count: 1
+			path: src/Operator/VariableOperator.php
+
+		-
+			message: "#^Call to function is_string\\(\\) with string will always evaluate to true\\.$#"
+			count: 1
+			path: src/RuleBuilder.php
+
+		-
+			message: "#^Class BaseCodeOy\\\\Ruler\\\\RuleBuilder implements generic interface ArrayAccess but does not specify its types\\: TKey, TValue$#"
+			count: 1
+			path: src/RuleBuilder.php
+
+		-
+			message: "#^Parameter \\#1 \\$name \\(string\\) of method BaseCodeOy\\\\Ruler\\\\RuleBuilder\\:\\:offsetExists\\(\\) should be contravariant with parameter \\$offset \\(mixed\\) of method ArrayAccess\\<mixed,mixed\\>\\:\\:offsetExists\\(\\)$#"
+			count: 1
+			path: src/RuleBuilder.php
+
+		-
+			message: "#^Parameter \\#1 \\$name \\(string\\) of method BaseCodeOy\\\\Ruler\\\\RuleBuilder\\:\\:offsetGet\\(\\) should be contravariant with parameter \\$offset \\(mixed\\) of method ArrayAccess\\<mixed,mixed\\>\\:\\:offsetGet\\(\\)$#"
+			count: 1
+			path: src/RuleBuilder.php
+
+		-
+			message: "#^Parameter \\#1 \\$name \\(string\\) of method BaseCodeOy\\\\Ruler\\\\RuleBuilder\\:\\:offsetSet\\(\\) should be contravariant with parameter \\$offset \\(mixed\\) of method ArrayAccess\\<mixed,mixed\\>\\:\\:offsetSet\\(\\)$#"
+			count: 1
+			path: src/RuleBuilder.php
+
+		-
+			message: "#^Parameter \\#1 \\$name \\(string\\) of method BaseCodeOy\\\\Ruler\\\\RuleBuilder\\:\\:offsetUnset\\(\\) should be contravariant with parameter \\$offset \\(mixed\\) of method ArrayAccess\\<mixed,mixed\\>\\:\\:offsetUnset\\(\\)$#"
+			count: 1
+			path: src/RuleBuilder.php
+
+		-
+			message: "#^Property BaseCodeOy\\\\Ruler\\\\RuleBuilder\\:\\:\\$operatorNamespaces type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/RuleBuilder.php
+
+		-
+			message: "#^Property BaseCodeOy\\\\Ruler\\\\RuleBuilder\\:\\:\\$variables type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/RuleBuilder.php
+
+		-
+			message: "#^Class BaseCodeOy\\\\Ruler\\\\RuleBuilder\\\\AbstractVariable implements generic interface ArrayAccess but does not specify its types\\: TKey, TValue$#"
+			count: 1
+			path: src/RuleBuilder/AbstractVariable.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Ruler\\\\RuleBuilder\\\\AbstractVariable\\:\\:__call\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/RuleBuilder/AbstractVariable.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Ruler\\\\RuleBuilder\\\\AbstractVariable\\:\\:__call\\(\\) should return BaseCodeOy\\\\Ruler\\\\Operator\\|BaseCodeOy\\\\Ruler\\\\RuleBuilder\\\\AbstractVariable but returns object\\.$#"
+			count: 1
+			path: src/RuleBuilder/AbstractVariable.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Ruler\\\\RuleBuilder\\\\AbstractVariable\\:\\:add\\(\\) has parameter \\$variable with no type specified\\.$#"
+			count: 1
+			path: src/RuleBuilder/AbstractVariable.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Ruler\\\\RuleBuilder\\\\AbstractVariable\\:\\:applySetOperator\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/RuleBuilder/AbstractVariable.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Ruler\\\\RuleBuilder\\\\AbstractVariable\\:\\:complement\\(\\) has parameter \\$variables with no type specified\\.$#"
+			count: 1
+			path: src/RuleBuilder/AbstractVariable.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Ruler\\\\RuleBuilder\\\\AbstractVariable\\:\\:containsSubset\\(\\) has parameter \\$variable with no type specified\\.$#"
+			count: 1
+			path: src/RuleBuilder/AbstractVariable.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Ruler\\\\RuleBuilder\\\\AbstractVariable\\:\\:divide\\(\\) has parameter \\$variable with no type specified\\.$#"
+			count: 1
+			path: src/RuleBuilder/AbstractVariable.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Ruler\\\\RuleBuilder\\\\AbstractVariable\\:\\:doesNotContainSubset\\(\\) has parameter \\$variable with no type specified\\.$#"
+			count: 1
+			path: src/RuleBuilder/AbstractVariable.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Ruler\\\\RuleBuilder\\\\AbstractVariable\\:\\:exponentiate\\(\\) has parameter \\$variable with no type specified\\.$#"
+			count: 1
+			path: src/RuleBuilder/AbstractVariable.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Ruler\\\\RuleBuilder\\\\AbstractVariable\\:\\:intersect\\(\\) has parameter \\$variables with no type specified\\.$#"
+			count: 1
+			path: src/RuleBuilder/AbstractVariable.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Ruler\\\\RuleBuilder\\\\AbstractVariable\\:\\:modulo\\(\\) has parameter \\$variable with no type specified\\.$#"
+			count: 1
+			path: src/RuleBuilder/AbstractVariable.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Ruler\\\\RuleBuilder\\\\AbstractVariable\\:\\:multiply\\(\\) has parameter \\$variable with no type specified\\.$#"
+			count: 1
+			path: src/RuleBuilder/AbstractVariable.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Ruler\\\\RuleBuilder\\\\AbstractVariable\\:\\:subtract\\(\\) has parameter \\$variable with no type specified\\.$#"
+			count: 1
+			path: src/RuleBuilder/AbstractVariable.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Ruler\\\\RuleBuilder\\\\AbstractVariable\\:\\:symmetricDifference\\(\\) has parameter \\$variables with no type specified\\.$#"
+			count: 1
+			path: src/RuleBuilder/AbstractVariable.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Ruler\\\\RuleBuilder\\\\AbstractVariable\\:\\:union\\(\\) has parameter \\$variables with no type specified\\.$#"
+			count: 1
+			path: src/RuleBuilder/AbstractVariable.php
+
+		-
+			message: "#^Parameter \\#1 \\$name \\(string\\) of method BaseCodeOy\\\\Ruler\\\\RuleBuilder\\\\AbstractVariable\\:\\:offsetExists\\(\\) should be contravariant with parameter \\$offset \\(mixed\\) of method ArrayAccess\\<mixed,mixed\\>\\:\\:offsetExists\\(\\)$#"
+			count: 1
+			path: src/RuleBuilder/AbstractVariable.php
+
+		-
+			message: "#^Parameter \\#1 \\$name \\(string\\) of method BaseCodeOy\\\\Ruler\\\\RuleBuilder\\\\AbstractVariable\\:\\:offsetGet\\(\\) should be contravariant with parameter \\$offset \\(mixed\\) of method ArrayAccess\\<mixed,mixed\\>\\:\\:offsetGet\\(\\)$#"
+			count: 1
+			path: src/RuleBuilder/AbstractVariable.php
+
+		-
+			message: "#^Parameter \\#1 \\$name \\(string\\) of method BaseCodeOy\\\\Ruler\\\\RuleBuilder\\\\AbstractVariable\\:\\:offsetSet\\(\\) should be contravariant with parameter \\$offset \\(mixed\\) of method ArrayAccess\\<mixed,mixed\\>\\:\\:offsetSet\\(\\)$#"
+			count: 1
+			path: src/RuleBuilder/AbstractVariable.php
+
+		-
+			message: "#^Parameter \\#1 \\$name \\(string\\) of method BaseCodeOy\\\\Ruler\\\\RuleBuilder\\\\AbstractVariable\\:\\:offsetUnset\\(\\) should be contravariant with parameter \\$offset \\(mixed\\) of method ArrayAccess\\<mixed,mixed\\>\\:\\:offsetUnset\\(\\)$#"
+			count: 1
+			path: src/RuleBuilder/AbstractVariable.php
+
+		-
+			message: "#^Parameter \\#1 \\$objectOrClass of class ReflectionClass constructor expects class\\-string\\<T of object\\>\\|T of object, string given\\.$#"
+			count: 2
+			path: src/RuleBuilder/AbstractVariable.php
+
+		-
+			message: "#^Parameter \\#1 \\$variable of class BaseCodeOy\\\\Ruler\\\\RuleBuilder\\\\VariableProperty constructor expects BaseCodeOy\\\\Ruler\\\\RuleBuilder\\\\Variable, \\$this\\(BaseCodeOy\\\\Ruler\\\\RuleBuilder\\\\AbstractVariable\\) given\\.$#"
+			count: 1
+			path: src/RuleBuilder/AbstractVariable.php
+
+		-
+			message: "#^Parameter \\#1 \\$variableOperator of method BaseCodeOy\\\\Ruler\\\\RuleBuilder\\\\AbstractVariable\\:\\:wrap\\(\\) expects BaseCodeOy\\\\Ruler\\\\Operator\\\\VariableOperator, BaseCodeOy\\\\Ruler\\\\VariableOperand given\\.$#"
+			count: 1
+			path: src/RuleBuilder/AbstractVariable.php
+
+		-
+			message: "#^Parameter \\#1 \\$variableOperator of method BaseCodeOy\\\\Ruler\\\\RuleBuilder\\\\AbstractVariable\\:\\:wrap\\(\\) expects BaseCodeOy\\\\Ruler\\\\Operator\\\\VariableOperator, object given\\.$#"
+			count: 1
+			path: src/RuleBuilder/AbstractVariable.php
+
+		-
+			message: "#^Property BaseCodeOy\\\\Ruler\\\\RuleBuilder\\\\AbstractVariable\\:\\:\\$properties type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/RuleBuilder/AbstractVariable.php
+
+		-
+			message: "#^Unsafe usage of new static\\(\\)\\.$#"
+			count: 1
+			path: src/RuleBuilder/AbstractVariable.php
+
+		-
+			message: "#^Parameter \\#1 \\$callback of function call_user_func expects callable\\(\\)\\: mixed, array\\{object, string\\} given\\.$#"
+			count: 1
+			path: src/RuleBuilder/VariableProperty.php
+
+		-
+			message: "#^Variable property access on object\\.$#"
+			count: 2
+			path: src/RuleBuilder/VariableProperty.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Ruler\\\\RuleSet\\:\\:__construct\\(\\) has parameter \\$rules with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/RuleSet.php
+
+		-
+			message: "#^Property BaseCodeOy\\\\Ruler\\\\RuleSet\\:\\:\\$rules type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/RuleSet.php
+
+		-
+			message: "#^Argument of an invalid type mixed supplied for foreach, only iterables are supported\\.$#"
+			count: 2
+			path: src/Set.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Set.php
+
+		-
+			message: "#^Construct empty\\(\\) is not allowed\\. Use more strict comparison\\.$#"
+			count: 2
+			path: src/Set.php
+
+		-
+			message: "#^PHPDoc tag @var for variable \\$convertedArg has no value type specified in iterable type array\\.$#"
+			count: 3
+			path: src/Set.php
+
+		-
+			message: "#^Parameter \\#1 \\$array of function array_diff expects array, mixed given\\.$#"
+			count: 1
+			path: src/Set.php
+
+		-
+			message: "#^Parameter \\#1 \\$array of function array_intersect expects array, mixed given\\.$#"
+			count: 2
+			path: src/Set.php
+
+		-
+			message: "#^Parameter \\#1 \\.\\.\\.\\$arg1 of function max expects array, mixed given\\.$#"
+			count: 1
+			path: src/Set.php
+
+		-
+			message: "#^Parameter \\#1 \\.\\.\\.\\$arg1 of function min expects array, mixed given\\.$#"
+			count: 1
+			path: src/Set.php
+
+		-
+			message: "#^Parameter \\#1 \\.\\.\\.\\$arrays of function array_merge expects array, mixed given\\.$#"
+			count: 1
+			path: src/Set.php
+
+		-
+			message: "#^Parameter \\#2 \\$array of function array_map expects array, mixed given\\.$#"
+			count: 1
+			path: src/Set.php
+
+		-
+			message: "#^Parameter \\#2 \\$haystack of function in_array expects array, mixed given\\.$#"
+			count: 1
+			path: src/Set.php
+
+		-
+			message: "#^Parameter \\#2 \\.\\.\\.\\$arrays of function array_diff expects array, mixed given\\.$#"
+			count: 1
+			path: src/Set.php
+
+		-
+			message: "#^Parameter \\#2 \\.\\.\\.\\$arrays of function array_intersect expects array, mixed given\\.$#"
+			count: 1
+			path: src/Set.php
+
+		-
+			message: "#^Parameter \\#1 \\$callback of function call_user_func expects callable\\(\\)\\: mixed, array\\{object, string\\} given\\.$#"
+			count: 1
+			path: src/VariableProperty.php
+
+		-
+			message: "#^Variable property access on object\\.$#"
+			count: 2
+			path: src/VariableProperty.php
+
+		-
+			message: "#^Property Tests\\\\Fixtures\\\\Fact\\:\\:\\$value has no type specified\\.$#"
+			count: 1
+			path: tests/Fixtures/Fact.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: tests/Fixtures/toStringable.php
+
+		-
+			message: "#^Call to an undefined method Pest\\\\PendingCalls\\\\TestCall\\|Pest\\\\Support\\\\HigherOrderTapProxy\\:\\:with\\(\\)\\.$#"
+			count: 13
+			path: tests/Functional/RulerTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertEquals\\(\\) outside of class scope\\.$#"
+			count: 13
+			path: tests/Functional/RulerTest.php
+
+		-
+			message: "#^Call to an undefined method Pest\\\\PendingCalls\\\\TestCall\\|Pest\\\\Support\\\\HigherOrderTapProxy\\:\\:with\\(\\)\\.$#"
+			count: 4
+			path: tests/Functional/SetTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertTrue\\(\\) outside of class scope\\.$#"
+			count: 6
+			path: tests/Functional/SetTest.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Foundation\\\\Application\\:\\:\\$config\\.$#"
+			count: 6
+			path: tests/TestCase.php
+
+		-
+			message: "#^Parameter \\#1 \\$path of method Illuminate\\\\Foundation\\\\Application\\:\\:useStoragePath\\(\\) expects string, string\\|false given\\.$#"
+			count: 1
+			path: tests/TestCase.php
+
+		-
+			message: "#^Call to an undefined method Pest\\\\PendingCalls\\\\TestCall\\|Pest\\\\Support\\\\HigherOrderTapProxy\\:\\:with\\(\\)\\.$#"
+			count: 4
+			path: tests/Unit/ContextTest.php
+
+		-
+			message: "#^Call to protected method expectException\\(\\) of class PHPUnit\\\\Framework\\\\TestCase\\.$#"
+			count: 4
+			path: tests/Unit/ContextTest.php
+
+		-
+			message: "#^Call to protected method expectExceptionMessage\\(\\) of class PHPUnit\\\\Framework\\\\TestCase\\.$#"
+			count: 4
+			path: tests/Unit/ContextTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertArrayHasKey\\(\\) outside of class scope\\.$#"
+			count: 6
+			path: tests/Unit/ContextTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertArrayNotHasKey\\(\\) outside of class scope\\.$#"
+			count: 3
+			path: tests/Unit/ContextTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertEquals\\(\\) outside of class scope\\.$#"
+			count: 4
+			path: tests/Unit/ContextTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 7
+			path: tests/Unit/ContextTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertNotSame\\(\\) outside of class scope\\.$#"
+			count: 2
+			path: tests/Unit/ContextTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertNull\\(\\) outside of class scope\\.$#"
+			count: 2
+			path: tests/Unit/ContextTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertSame\\(\\) outside of class scope\\.$#"
+			count: 6
+			path: tests/Unit/ContextTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertTrue\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/ContextTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$callable of method BaseCodeOy\\\\Ruler\\\\Context\\:\\:protect\\(\\) expects callable\\(\\)\\: mixed, mixed given\\.$#"
+			count: 2
+			path: tests/Unit/ContextTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$callable of method BaseCodeOy\\\\Ruler\\\\Context\\:\\:share\\(\\) expects callable\\(\\)\\: mixed, mixed given\\.$#"
+			count: 2
+			path: tests/Unit/ContextTest.php
+
+		-
+			message: "#^Parameter \\#1 \\(mixed\\) of echo cannot be converted to string\\.$#"
+			count: 1
+			path: tests/Unit/ContextTest.php
+
+		-
+			message: "#^Call to an undefined method Pest\\\\PendingCalls\\\\TestCall\\|Pest\\\\Support\\\\HigherOrderTapProxy\\:\\:with\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Operator/AdditionTest.php
+
+		-
+			message: "#^Call to protected method expectException\\(\\) of class PHPUnit\\\\Framework\\\\TestCase\\.$#"
+			count: 1
+			path: tests/Unit/Operator/AdditionTest.php
+
+		-
+			message: "#^Call to protected method expectExceptionMessage\\(\\) of class PHPUnit\\\\Framework\\\\TestCase\\.$#"
+			count: 1
+			path: tests/Unit/Operator/AdditionTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertEquals\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/AdditionTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/AdditionTest.php
+
+		-
+			message: "#^Call to an undefined method Pest\\\\PendingCalls\\\\TestCall\\|Pest\\\\Support\\\\HigherOrderTapProxy\\:\\:with\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Operator/CeilTest.php
+
+		-
+			message: "#^Call to protected method expectException\\(\\) of class PHPUnit\\\\Framework\\\\TestCase\\.$#"
+			count: 1
+			path: tests/Unit/Operator/CeilTest.php
+
+		-
+			message: "#^Call to protected method expectExceptionMessage\\(\\) of class PHPUnit\\\\Framework\\\\TestCase\\.$#"
+			count: 1
+			path: tests/Unit/Operator/CeilTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertEquals\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/CeilTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/CeilTest.php
+
+		-
+			message: "#^Call to an undefined method Pest\\\\PendingCalls\\\\TestCall\\|Pest\\\\Support\\\\HigherOrderTapProxy\\:\\:with\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Operator/ComplementTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertEquals\\(\\) outside of class scope\\.$#"
+			count: 2
+			path: tests/Unit/Operator/ComplementTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/ComplementTest.php
+
+		-
+			message: "#^Call to an undefined method Pest\\\\PendingCalls\\\\TestCall\\|Pest\\\\Support\\\\HigherOrderTapProxy\\:\\:with\\(\\)\\.$#"
+			count: 2
+			path: tests/Unit/Operator/ContainsSubsetTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertEquals\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/ContainsSubsetTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/ContainsSubsetTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertNotEquals\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/ContainsSubsetTest.php
+
+		-
+			message: "#^Call to an undefined method Pest\\\\PendingCalls\\\\TestCall\\|Pest\\\\Support\\\\HigherOrderTapProxy\\:\\:with\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Operator/DivisionTest.php
+
+		-
+			message: "#^Call to protected method expectException\\(\\) of class PHPUnit\\\\Framework\\\\TestCase\\.$#"
+			count: 2
+			path: tests/Unit/Operator/DivisionTest.php
+
+		-
+			message: "#^Call to protected method expectExceptionMessage\\(\\) of class PHPUnit\\\\Framework\\\\TestCase\\.$#"
+			count: 2
+			path: tests/Unit/Operator/DivisionTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertEquals\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/DivisionTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/DivisionTest.php
+
+		-
+			message: "#^Call to an undefined method Pest\\\\PendingCalls\\\\TestCall\\|Pest\\\\Support\\\\HigherOrderTapProxy\\:\\:with\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Operator/EndsWithInsensitiveTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertEquals\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/EndsWithInsensitiveTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/EndsWithInsensitiveTest.php
+
+		-
+			message: "#^Call to an undefined method Pest\\\\PendingCalls\\\\TestCall\\|Pest\\\\Support\\\\HigherOrderTapProxy\\:\\:with\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Operator/EndsWithTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertEquals\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/EndsWithTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/EndsWithTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertFalse\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/EqualToTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/EqualToTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertTrue\\(\\) outside of class scope\\.$#"
+			count: 2
+			path: tests/Unit/Operator/EqualToTest.php
+
+		-
+			message: "#^Call to an undefined method Pest\\\\PendingCalls\\\\TestCall\\|Pest\\\\Support\\\\HigherOrderTapProxy\\:\\:with\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Operator/ExponentiateTest.php
+
+		-
+			message: "#^Call to protected method expectException\\(\\) of class PHPUnit\\\\Framework\\\\TestCase\\.$#"
+			count: 1
+			path: tests/Unit/Operator/ExponentiateTest.php
+
+		-
+			message: "#^Call to protected method expectExceptionMessage\\(\\) of class PHPUnit\\\\Framework\\\\TestCase\\.$#"
+			count: 1
+			path: tests/Unit/Operator/ExponentiateTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertEquals\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/ExponentiateTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/ExponentiateTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertFalse\\(\\) outside of class scope\\.$#"
+			count: 2
+			path: tests/Unit/Operator/ExtraOperatorTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertTrue\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/ExtraOperatorTest.php
+
+		-
+			message: "#^Call to an undefined method Pest\\\\PendingCalls\\\\TestCall\\|Pest\\\\Support\\\\HigherOrderTapProxy\\:\\:with\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Operator/FloorTest.php
+
+		-
+			message: "#^Call to protected method expectException\\(\\) of class PHPUnit\\\\Framework\\\\TestCase\\.$#"
+			count: 1
+			path: tests/Unit/Operator/FloorTest.php
+
+		-
+			message: "#^Call to protected method expectExceptionMessage\\(\\) of class PHPUnit\\\\Framework\\\\TestCase\\.$#"
+			count: 1
+			path: tests/Unit/Operator/FloorTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertEquals\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/FloorTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/FloorTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertFalse\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/GreaterThanOrEqualToTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/GreaterThanOrEqualToTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertTrue\\(\\) outside of class scope\\.$#"
+			count: 3
+			path: tests/Unit/Operator/GreaterThanOrEqualToTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertFalse\\(\\) outside of class scope\\.$#"
+			count: 2
+			path: tests/Unit/Operator/GreaterThanTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/GreaterThanTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertTrue\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/GreaterThanTest.php
+
+		-
+			message: "#^Call to an undefined method Pest\\\\PendingCalls\\\\TestCall\\|Pest\\\\Support\\\\HigherOrderTapProxy\\:\\:with\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Operator/IntersectTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertEquals\\(\\) outside of class scope\\.$#"
+			count: 2
+			path: tests/Unit/Operator/IntersectTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/IntersectTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertFalse\\(\\) outside of class scope\\.$#"
+			count: 2
+			path: tests/Unit/Operator/LessThanOrEqualToTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/LessThanOrEqualToTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertTrue\\(\\) outside of class scope\\.$#"
+			count: 2
+			path: tests/Unit/Operator/LessThanOrEqualToTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertFalse\\(\\) outside of class scope\\.$#"
+			count: 2
+			path: tests/Unit/Operator/LessThanTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/LessThanTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertTrue\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/LessThanTest.php
+
+		-
+			message: "#^Call to protected method expectException\\(\\) of class PHPUnit\\\\Framework\\\\TestCase\\.$#"
+			count: 1
+			path: tests/Unit/Operator/LogicalAndTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertFalse\\(\\) outside of class scope\\.$#"
+			count: 2
+			path: tests/Unit/Operator/LogicalAndTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/LogicalAndTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertTrue\\(\\) outside of class scope\\.$#"
+			count: 2
+			path: tests/Unit/Operator/LogicalAndTest.php
+
+		-
+			message: "#^Call to protected method expectException\\(\\) of class PHPUnit\\\\Framework\\\\TestCase\\.$#"
+			count: 3
+			path: tests/Unit/Operator/LogicalNotTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertFalse\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/LogicalNotTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/LogicalNotTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertTrue\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/LogicalNotTest.php
+
+		-
+			message: "#^Call to protected method expectException\\(\\) of class PHPUnit\\\\Framework\\\\TestCase\\.$#"
+			count: 1
+			path: tests/Unit/Operator/LogicalOrTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertFalse\\(\\) outside of class scope\\.$#"
+			count: 2
+			path: tests/Unit/Operator/LogicalOrTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/LogicalOrTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertTrue\\(\\) outside of class scope\\.$#"
+			count: 2
+			path: tests/Unit/Operator/LogicalOrTest.php
+
+		-
+			message: "#^Call to protected method expectException\\(\\) of class PHPUnit\\\\Framework\\\\TestCase\\.$#"
+			count: 1
+			path: tests/Unit/Operator/LogicalXorTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertFalse\\(\\) outside of class scope\\.$#"
+			count: 3
+			path: tests/Unit/Operator/LogicalXorTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/LogicalXorTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertTrue\\(\\) outside of class scope\\.$#"
+			count: 2
+			path: tests/Unit/Operator/LogicalXorTest.php
+
+		-
+			message: "#^Call to an undefined method Pest\\\\PendingCalls\\\\TestCall\\|Pest\\\\Support\\\\HigherOrderTapProxy\\:\\:with\\(\\)\\.$#"
+			count: 2
+			path: tests/Unit/Operator/MaxTest.php
+
+		-
+			message: "#^Call to protected method expectException\\(\\) of class PHPUnit\\\\Framework\\\\TestCase\\.$#"
+			count: 1
+			path: tests/Unit/Operator/MaxTest.php
+
+		-
+			message: "#^Call to protected method expectExceptionMessage\\(\\) of class PHPUnit\\\\Framework\\\\TestCase\\.$#"
+			count: 1
+			path: tests/Unit/Operator/MaxTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertEquals\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/MaxTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/MaxTest.php
+
+		-
+			message: "#^Call to an undefined method Pest\\\\PendingCalls\\\\TestCall\\|Pest\\\\Support\\\\HigherOrderTapProxy\\:\\:with\\(\\)\\.$#"
+			count: 2
+			path: tests/Unit/Operator/MinTest.php
+
+		-
+			message: "#^Call to protected method expectException\\(\\) of class PHPUnit\\\\Framework\\\\TestCase\\.$#"
+			count: 1
+			path: tests/Unit/Operator/MinTest.php
+
+		-
+			message: "#^Call to protected method expectExceptionMessage\\(\\) of class PHPUnit\\\\Framework\\\\TestCase\\.$#"
+			count: 1
+			path: tests/Unit/Operator/MinTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertEquals\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/MinTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/MinTest.php
+
+		-
+			message: "#^Call to an undefined method Pest\\\\PendingCalls\\\\TestCall\\|Pest\\\\Support\\\\HigherOrderTapProxy\\:\\:with\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Operator/ModuloTest.php
+
+		-
+			message: "#^Call to protected method expectException\\(\\) of class PHPUnit\\\\Framework\\\\TestCase\\.$#"
+			count: 2
+			path: tests/Unit/Operator/ModuloTest.php
+
+		-
+			message: "#^Call to protected method expectExceptionMessage\\(\\) of class PHPUnit\\\\Framework\\\\TestCase\\.$#"
+			count: 2
+			path: tests/Unit/Operator/ModuloTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertEquals\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/ModuloTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/ModuloTest.php
+
+		-
+			message: "#^Call to an undefined method Pest\\\\PendingCalls\\\\TestCall\\|Pest\\\\Support\\\\HigherOrderTapProxy\\:\\:with\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Operator/MultiplicationTest.php
+
+		-
+			message: "#^Call to protected method expectException\\(\\) of class PHPUnit\\\\Framework\\\\TestCase\\.$#"
+			count: 1
+			path: tests/Unit/Operator/MultiplicationTest.php
+
+		-
+			message: "#^Call to protected method expectExceptionMessage\\(\\) of class PHPUnit\\\\Framework\\\\TestCase\\.$#"
+			count: 1
+			path: tests/Unit/Operator/MultiplicationTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertEquals\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/MultiplicationTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/MultiplicationTest.php
+
+		-
+			message: "#^Call to an undefined method Pest\\\\PendingCalls\\\\TestCall\\|Pest\\\\Support\\\\HigherOrderTapProxy\\:\\:with\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Operator/NegationTest.php
+
+		-
+			message: "#^Call to protected method expectException\\(\\) of class PHPUnit\\\\Framework\\\\TestCase\\.$#"
+			count: 1
+			path: tests/Unit/Operator/NegationTest.php
+
+		-
+			message: "#^Call to protected method expectExceptionMessage\\(\\) of class PHPUnit\\\\Framework\\\\TestCase\\.$#"
+			count: 1
+			path: tests/Unit/Operator/NegationTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertEquals\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/NegationTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/NegationTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertFalse\\(\\) outside of class scope\\.$#"
+			count: 2
+			path: tests/Unit/Operator/NotEqualToTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/NotEqualToTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertTrue\\(\\) outside of class scope\\.$#"
+			count: 2
+			path: tests/Unit/Operator/NotEqualToTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertFalse\\(\\) outside of class scope\\.$#"
+			count: 2
+			path: tests/Unit/Operator/NotSameAsTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/NotSameAsTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertTrue\\(\\) outside of class scope\\.$#"
+			count: 2
+			path: tests/Unit/Operator/NotSameAsTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertFalse\\(\\) outside of class scope\\.$#"
+			count: 5
+			path: tests/Unit/Operator/SameAsTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/SameAsTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertTrue\\(\\) outside of class scope\\.$#"
+			count: 3
+			path: tests/Unit/Operator/SameAsTest.php
+
+		-
+			message: "#^Cannot access property \\$attributes on mixed\\.$#"
+			count: 2
+			path: tests/Unit/Operator/SameAsTest.php
+
+		-
+			message: "#^Call to an undefined method Pest\\\\PendingCalls\\\\TestCall\\|Pest\\\\Support\\\\HigherOrderTapProxy\\:\\:with\\(\\)\\.$#"
+			count: 2
+			path: tests/Unit/Operator/SetContainsTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertEquals\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/SetContainsTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/SetContainsTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertNotEquals\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/SetContainsTest.php
+
+		-
+			message: "#^Call to an undefined method Pest\\\\PendingCalls\\\\TestCall\\|Pest\\\\Support\\\\HigherOrderTapProxy\\:\\:with\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Operator/StartsWithInsensitiveTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertEquals\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/StartsWithInsensitiveTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/StartsWithInsensitiveTest.php
+
+		-
+			message: "#^Call to an undefined method Pest\\\\PendingCalls\\\\TestCall\\|Pest\\\\Support\\\\HigherOrderTapProxy\\:\\:with\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Operator/StartsWithTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertEquals\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/StartsWithTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/StartsWithTest.php
+
+		-
+			message: "#^Call to an undefined method Pest\\\\PendingCalls\\\\TestCall\\|Pest\\\\Support\\\\HigherOrderTapProxy\\:\\:with\\(\\)\\.$#"
+			count: 2
+			path: tests/Unit/Operator/StringContainsInsensitiveTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertEquals\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/StringContainsInsensitiveTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/StringContainsInsensitiveTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertNotEquals\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/StringContainsInsensitiveTest.php
+
+		-
+			message: "#^Call to an undefined method Pest\\\\PendingCalls\\\\TestCall\\|Pest\\\\Support\\\\HigherOrderTapProxy\\:\\:with\\(\\)\\.$#"
+			count: 2
+			path: tests/Unit/Operator/StringContainsTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertEquals\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/StringContainsTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/StringContainsTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertNotEquals\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/StringContainsTest.php
+
+		-
+			message: "#^Call to an undefined method Pest\\\\PendingCalls\\\\TestCall\\|Pest\\\\Support\\\\HigherOrderTapProxy\\:\\:with\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Operator/SubtractionTest.php
+
+		-
+			message: "#^Call to protected method expectException\\(\\) of class PHPUnit\\\\Framework\\\\TestCase\\.$#"
+			count: 1
+			path: tests/Unit/Operator/SubtractionTest.php
+
+		-
+			message: "#^Call to protected method expectExceptionMessage\\(\\) of class PHPUnit\\\\Framework\\\\TestCase\\.$#"
+			count: 1
+			path: tests/Unit/Operator/SubtractionTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertEquals\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/SubtractionTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/SubtractionTest.php
+
+		-
+			message: "#^Call to an undefined method Pest\\\\PendingCalls\\\\TestCall\\|Pest\\\\Support\\\\HigherOrderTapProxy\\:\\:with\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Operator/SymmetricDifferenceTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertEquals\\(\\) outside of class scope\\.$#"
+			count: 2
+			path: tests/Unit/Operator/SymmetricDifferenceTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/SymmetricDifferenceTest.php
+
+		-
+			message: "#^Call to an undefined method Pest\\\\PendingCalls\\\\TestCall\\|Pest\\\\Support\\\\HigherOrderTapProxy\\:\\:with\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/Operator/UnionTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertEquals\\(\\) outside of class scope\\.$#"
+			count: 2
+			path: tests/Unit/Operator/UnionTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/Operator/UnionTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertEquals\\(\\) outside of class scope\\.$#"
+			count: 7
+			path: tests/Unit/RuleBuilder/VariablePropertyTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertFalse\\(\\) outside of class scope\\.$#"
+			count: 8
+			path: tests/Unit/RuleBuilder/VariablePropertyTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 19
+			path: tests/Unit/RuleBuilder/VariablePropertyTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertNull\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/RuleBuilder/VariablePropertyTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertTrue\\(\\) outside of class scope\\.$#"
+			count: 22
+			path: tests/Unit/RuleBuilder/VariablePropertyTest.php
+
+		-
+			message: "#^Call to method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) with incorrect case\\: assertInstanceof$#"
+			count: 19
+			path: tests/Unit/RuleBuilder/VariableTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertArrayHasKey\\(\\) outside of class scope\\.$#"
+			count: 5
+			path: tests/Unit/RuleBuilder/VariableTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertArrayNotHasKey\\(\\) outside of class scope\\.$#"
+			count: 5
+			path: tests/Unit/RuleBuilder/VariableTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertEquals\\(\\) outside of class scope\\.$#"
+			count: 27
+			path: tests/Unit/RuleBuilder/VariableTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertFalse\\(\\) outside of class scope\\.$#"
+			count: 8
+			path: tests/Unit/RuleBuilder/VariableTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 16
+			path: tests/Unit/RuleBuilder/VariableTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertNotSame\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/RuleBuilder/VariableTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertNull\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/RuleBuilder/VariableTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertSame\\(\\) outside of class scope\\.$#"
+			count: 2
+			path: tests/Unit/RuleBuilder/VariableTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertTrue\\(\\) outside of class scope\\.$#"
+			count: 15
+			path: tests/Unit/RuleBuilder/VariableTest.php
+
+		-
+			message: "#^Dynamic call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\)\\.$#"
+			count: 19
+			path: tests/Unit/RuleBuilder/VariableTest.php
+
+		-
+			message: "#^Call to an undefined method BaseCodeOy\\\\Ruler\\\\RuleBuilder\\\\Variable\\:\\:aLotBiggerThan\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/RuleBuilderTest.php
+
+		-
+			message: "#^Call to an undefined method BaseCodeOy\\\\Ruler\\\\RuleBuilder\\\\Variable\\:\\:aLotGreaterThan\\(\\)\\.$#"
+			count: 2
+			path: tests/Unit/RuleBuilderTest.php
+
+		-
+			message: "#^Call to protected method expectException\\(\\) of class PHPUnit\\\\Framework\\\\TestCase\\.$#"
+			count: 1
+			path: tests/Unit/RuleBuilderTest.php
+
+		-
+			message: "#^Call to protected method expectExceptionMessage\\(\\) of class PHPUnit\\\\Framework\\\\TestCase\\.$#"
+			count: 1
+			path: tests/Unit/RuleBuilderTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertArrayHasKey\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/RuleBuilderTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertArrayNotHasKey\\(\\) outside of class scope\\.$#"
+			count: 2
+			path: tests/Unit/RuleBuilderTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertEquals\\(\\) outside of class scope\\.$#"
+			count: 2
+			path: tests/Unit/RuleBuilderTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertFalse\\(\\) outside of class scope\\.$#"
+			count: 5
+			path: tests/Unit/RuleBuilderTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 9
+			path: tests/Unit/RuleBuilderTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertNotSame\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/RuleBuilderTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertNull\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/RuleBuilderTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertSame\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/RuleBuilderTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertTrue\\(\\) outside of class scope\\.$#"
+			count: 7
+			path: tests/Unit/RuleBuilderTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertFalse\\(\\) outside of class scope\\.$#"
+			count: 3
+			path: tests/Unit/RuleSetTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertTrue\\(\\) outside of class scope\\.$#"
+			count: 3
+			path: tests/Unit/RuleSetTest.php
+
+		-
+			message: "#^Anonymous function has an unused use \\$actionExecuted\\.$#"
+			count: 2
+			path: tests/Unit/RuleTest.php
+
+		-
+			message: "#^Call to protected method expectException\\(\\) of class PHPUnit\\\\Framework\\\\TestCase\\.$#"
+			count: 1
+			path: tests/Unit/RuleTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertFalse\\(\\) outside of class scope\\.$#"
+			count: 2
+			path: tests/Unit/RuleTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/RuleTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertTrue\\(\\) outside of class scope\\.$#"
+			count: 4
+			path: tests/Unit/RuleTest.php
+
+		-
+			message: "#^Dynamic call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertSame\\(\\)\\.$#"
+			count: 2
+			path: tests/Unit/RuleTest.php
+
+		-
+			message: "#^Parameter \\#2 \\$action of class BaseCodeOy\\\\Ruler\\\\Rule constructor expects \\(callable\\(\\)\\: mixed\\)\\|null, 'this is not callable' given\\.$#"
+			count: 1
+			path: tests/Unit/RuleTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertCount\\(\\) outside of class scope\\.$#"
+			count: 3
+			path: tests/Unit/SetTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertFalse\\(\\) outside of class scope\\.$#"
+			count: 3
+			path: tests/Unit/SetTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertTrue\\(\\) outside of class scope\\.$#"
+			count: 4
+			path: tests/Unit/SetTest.php
+
+		-
+			message: "#^Call to an undefined method Pest\\\\PendingCalls\\\\TestCall\\|Pest\\\\Support\\\\HigherOrderTapProxy\\:\\:with\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/ValueTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertEquals\\(\\) outside of class scope\\.$#"
+			count: 4
+			path: tests/Unit/ValueTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertEquals\\(\\) outside of class scope\\.$#"
+			count: 4
+			path: tests/Unit/VariablePropertyTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/VariablePropertyTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertNull\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/VariablePropertyTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertEquals\\(\\) outside of class scope\\.$#"
+			count: 6
+			path: tests/Unit/VariableTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertInstanceOf\\(\\) outside of class scope\\.$#"
+			count: 2
+			path: tests/Unit/VariableTest.php
+
+		-
+			message: "#^Calling self\\:\\:assertNull\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: tests/Unit/VariableTest.php
